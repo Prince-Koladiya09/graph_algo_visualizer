@@ -1,12 +1,12 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Graph, Node, Edge, CanvasTool, Theme } from '../types';
+import { Graph, CanvasTool, Theme } from '../types';
 import { createNode, createEdge, createEmptyGraph, generateLabel, hasEdge } from '../core/graph/graphUtils';
 
 interface GraphState {
     // Graph data
     graph: Graph;
-
+    
     // Selection state
     selectedNodeIds: Set<string>;
     selectedEdgeIds: Set<string>;
