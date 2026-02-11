@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { useAlgorithmStore } from '../../store/algorithmStore';
-import { useGraphStore } from '../../store/graphStore';
 
 export const PlaybackControls: React.FC = () => {
     const {
