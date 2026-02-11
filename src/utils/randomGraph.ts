@@ -89,7 +89,7 @@ export function generateConnectedRandomGraph(options: Partial<RandomGraphOptions
 
     // Ensure connectivity by adding edges if needed
     const visited = new Set<string>();
-    const nodeMap = new Map(graph.nodes.map(n => [n.id, n]));
+    // const nodeMap = new Map(graph.nodes.map(n => [n.id, n]));
 
     function dfs(nodeId: string) {
         visited.add(nodeId);
