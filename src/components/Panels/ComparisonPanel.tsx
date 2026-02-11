@@ -27,7 +27,6 @@ export const ComparisonPanel: React.FC = () => {
         resetComparison,
         play,
         pause,
-        setSpeed,
         stepForward,
         stepBackward,
         jumpToStart,
