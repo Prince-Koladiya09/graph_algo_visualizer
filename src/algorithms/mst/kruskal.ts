@@ -1,5 +1,5 @@
 import { Graph, AlgorithmStep, AlgorithmParams, AlgorithmConfig, NodeState, EdgeState, AlgorithmMetrics } from '../../types';
-import { getNode, getEdgeBetween } from '../../core/graph/graphUtils';
+import { getNode } from '../../core/graph/graphUtils';
 
 export const kruskalConfig: AlgorithmConfig = {
     id: 'kruskal',
